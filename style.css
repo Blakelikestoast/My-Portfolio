@@ -1,0 +1,191 @@
+.header {  
+    padding: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#ad433b;
+    color:black;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 58px;
+}
+.header div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    padding-top: 25px;
+    margin-right: 25px;
+    float: right;
+    font-family: cursive;
+    font-size: 20px;
+}
+.header div ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.heroimg {
+    height: 375px;
+    width: 100%;
+    background-image: url(Images/Coverpic.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.heroimg div {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: crimson;
+    background-color: black;
+    padding: 3px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: #ad433b;
+}
+
+
+aside {
+    float: left;
+    padding: 20px;
+    border: 3px;
+    border-right-style: double;
+    border-right-color: black;
+    border-width: 13px;
+    font-size: 30px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    max-width: 60%;
+    font-size: 16px;
+}
+
+#About-Me{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#My-Projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.activities {
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 1000px;
+}
+
+.activitiesbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.mainactivity {
+    background-image: url(Images/codeimg.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+    max-width: 800px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.activitytitles{
+    width: 125px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.otheractivities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+.act1 {
+    transform: rotate(5deg);
+    background-image: url(Images/fanpagelogo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height: 200px;
+    margin:20px;
+}
+
+.act2{
+    transform: rotate(5deg);
+    background-image: url(Images/rpslogo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: 20px
+}
+
+.act3{
+    transform: rotate(5deg);
+    background-image: url(Images/redblackplaceholder.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: 20px
+}
+
+.act4{
+    transform: rotate(5deg);
+    background-image: url(Images/workinp.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: 20px 
+}
+
+#Contact-Me{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+}
